@@ -1,0 +1,8 @@
+сделать чтобы database возвращала словари
+
+из predictor.py вернуть return-ы назад к моделям pydantic
+
+в документацию вставить
+https://sub.xyzvpnservice.xyz/1GgHjoHYhRQk-aL0
+со словами что впн для работы нужен
+

@@ -6,12 +6,8 @@ from contextlib import contextmanager
 _db_path: Path | None = None
 
 
-def init_db(db_path: Path | str) -> None:
-    global _db_path
-    _db_path = Path(db_path)
-    _db_path.parent.mkdir(parents=True, exist_ok=True)
-    with _get_conn() as conn:
-        conn.executescript(_SCHEMA)
+def init_db() -> None:
+    pass
 
 
 def get_db_path() -> Path:
